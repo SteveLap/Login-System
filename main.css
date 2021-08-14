@@ -1,0 +1,208 @@
+body {
+	margin: 0;
+	background-image: url(media/img_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container {
+	background-color: rgba(73, 56, 146, 0.67);
+}
+.page_title {
+	font-family: Helvetica;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.first_column>form {
+	width: 60.917%;
+	margin: auto
+}
+.formBox>* {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.formBox>label {
+    font-family: Helvetica;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.formBox input {
+    background-color: rgb(255, 255, 255, 0.42);
+    border-width: 0;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.formBox input::placeholder{
+	color: #ffffff;
+}
+.icon_name {
+    content: url(media/Name_23x23.png);
+}
+.icon_email {
+	content: url(media/Mail_23x23.png);
+}
+.icon_password {
+	content: url(media/password_23x23.png);
+}
+.formBox>button {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #493892;
+    border-radius: 50%;
+    border-width: 0;
+    background-color: rgba(255, 255, 255, 0.72);
+    padding: 0;
+}
+input:focus-visible {
+	outline: unset
+}
+.data_setting_row>* {
+    font-family: Helvetica;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0;
+    width: fit-content;
+    text-decoration: unset;
+}
+.sign_up_row {
+    text-align: center;
+}
+.sign_up_row * {
+    font-family: Helvetica;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    display: inline-block;
+    margin: 0;
+    width: fit-content;
+    text-decoration: unset;
+}
+.password_input_row {
+    position: relative;
+}
+input#loginPassword {
+    width: 100%;
+    box-sizing: border-box;
+}
+span {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+input#remember_me {
+    box-shadow: unset;
+}
+
+@media only screen and (min-width: 768px){
+	.container {
+		margin: 15.172vh auto auto;
+		width: 89.375vw;
+		height: 75.021vh;
+		border-radius: 0.625vw;
+		box-shadow: 0 0.208vw 0.417vw 0 rgba(0, 0, 0, 0.16);
+	}
+	.first_column, .second_column {
+	    width: 50%;
+	    height: 100%;
+	    display: inline-block;
+	}
+	.page_title {
+		font-size: 2.292vw;
+		line-height: 1;
+		margin: 11.819vh auto 3.772vh;
+	}
+	.formBox>label {
+	    font-size: 1.111vw;
+	    line-height: 1;
+	    padding-bottom: 1.090vh;
+	}
+	.icon {
+	    width: 2.153vw;
+	    position: absolute;
+    	margin: 0.521vw 0 0 1.042vw;
+	}
+	.formBox input {
+	    padding: 1.042vw;
+	    padding-left: 4.375vw;
+	    margin-bottom: 1.593vh;
+	    border-radius: 1.597vw;
+	    box-shadow: 0 0.208vw 0.417vw 0 rgb(0 0 0 / 55%);
+	    font-size: 1.111vw;
+	    line-height: 1;
+	}
+	.second_column {
+		float: right;
+		background-image: url(media/img01.png);
+	    background-size: cover;
+	    background-repeat: no-repeat;
+	    background-position: center;
+	}
+	.logo {
+	    display: inline-block;
+	    width: 100%;
+	    height: 100%;
+	}
+	.formBox>button {
+	    width: 6.806vw;
+	    height: 6.806vw;
+	    font-size: 1.111vw;
+	    line-height: 1;
+	    margin: auto;
+	}
+	.data_setting_row>* {
+		font-size: 1.111vw;
+	    line-height: 1;
+	    margin: 0.335vh 0 0;
+	}
+	.forget_password {
+		float: right;
+	}
+	#login {
+		margin-top: 9.220vh
+	}
+	.sign_up_row {
+	    margin-top: 1.425vh;
+	}
+	.sign_up_row * {
+		font-size: 1.111vw;
+	    line-height: 1;
+	}
+	.sign_up_row p {
+		font-weight: 300;
+	}
+	.sign_up_row a {
+		font-weight: bold;
+	}
+	i#eye {
+	    font-size: 1.111vw;
+	    line-height: 1;
+	    padding: 1.042vw;
+	    padding-right: 0.764vw;
+	}
+	input#remember_me {
+	    width: 1.111vw;
+	    height: 1.111vw;
+	    margin: 0.335vh 0.3vw 0 0;
+	}
+}
